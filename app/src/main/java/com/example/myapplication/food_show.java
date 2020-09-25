@@ -86,6 +86,8 @@ public class food_show extends AppCompatActivity {
         radioButton3.setChecked(false);
         get_price=price_l.getText().toString();
 
+
+        //dedeedederefrf
     }
 
     public void select_xl(View view) {

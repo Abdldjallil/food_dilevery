@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/htime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hdate"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp">
+
+        </TextView>
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/history_icon"
+            android:backgroundTint="@color/black"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/placed"
+            android:textColor="@color/green"
+            android:textSize="15sp">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/l"
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/phoneee"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/hphone"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="UseCompatTextViewDrawableXml"
+            tools:targetApi="m">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/l1"
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/address">
+
+        </TextView>
+    <TextView
+        android:id="@+id/haddresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="SmallSp">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/iiiii">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/htotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="16sp">
+
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:textColor="@color/white"
+        android:id="@+id/hid">
+
+    </TextView>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

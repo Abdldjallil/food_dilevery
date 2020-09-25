@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ggggg"
+    tools:context=".food_show">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/show_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/show_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/shadow"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="@string/select_size"
+              android:layout_gravity="center">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:onClick="select_l"
+                        android:text="@string/l"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <TextView
+                        android:id="@+id/price1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/green"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="select_xl"
+                        android:text="@string/xl"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <TextView
+                        android:id="@+id/price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/green"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="select_xxl"
+                        android:text="@string/xxl"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <TextView
+                        android:id="@+id/price3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/green"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/quantity"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                app:backGroundColor="@color/yallow"
+                app:textColor="@color/black"
+                android:layout_gravity="center"
+                app:initialNumber="1"
+                app:finalNumber="20"
+                android:id="@+id/btnqtt"
+                android:layout_marginTop="10dp">
+
+            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@color/yallow"
+        android:onClick="add_food"
+        android:text="@string/add">
+
+    </Button>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

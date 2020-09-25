@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shadow"
+    tools:context=".address">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:gravity="center"
+            android:text="@string/get_your_adrresse"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/_1_open_your_googl_maps_and_turn_on_you_gps"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/_2_click_here_to_se_you_location"
+            android:textColor="@color/black"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="530dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/adrs2"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <Button
+            android:onClick="adress1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/yallow"
+            android:text="@string/next"
+            android:textColor="@color/black"
+            tools:ignore="UnusedAttribute">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

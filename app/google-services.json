@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218777130977",
+    "firebase_url": "https://dilevery-database.firebaseio.com",
+    "project_id": "dilevery-database",
+    "storage_bucket": "dilevery-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218777130977:android:79355fbf0bcd9647aba4a0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218777130977-7dbmj68qacvb6fbrf541jl4ffm88ulbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "488707cc3f0230c667b4f5d97d4232d9654abdf6"
+          }
+        },
+        {
+          "client_id": "218777130977-19b7t3s9p48bbbq5kokte88o9u2tp0um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVwAw8nc910iNGIV7846GxpsQNvRUrpZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218777130977-19b7t3s9p48bbbq5kokte88o9u2tp0um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

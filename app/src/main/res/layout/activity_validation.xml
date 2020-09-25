@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ggg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".validation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:onClick="back3"
+            android:contentDescription="@string/todo6"
+            app:tint="@color/black">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_black"
+            android:gravity="center_horizontal"
+            android:text="@string/code"
+            android:textColor="@color/black"
+            android:textSize="70sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verification"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/enter_pasword_sent_to"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/phonever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeWidthFocused="2dp"
+            app:boxStrokeColor="@color/black"
+            android:hint="@string/virification_code"
+            app:hintTextColor="@color/black"
+            app:startIconTint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            android:layout_marginTop="10dp"
+            app:startIconDrawable="@drawable/password_icon">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:inputType="phone">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:onClick="validate"
+            android:background="@color/yallow"
+            android:text="@string/verify_code"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

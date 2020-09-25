@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ggg"
+    android:padding="60dp"
+    tools:context=".signup_login">
+
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/kkkkk">
+
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/yyy"
+            android:textColor="@color/white"
+            android:textSize="35sp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/to_our_app"
+            android:textColor="@color/white"
+            android:textSize="35sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/use_our_app_and_make_your_request_easyer_and_faster"
+            android:textColor="@color/white"
+            android:textSize="15sp">
+
+        </TextView>
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:onClick="go_to_login_page"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                tools:ignore="ButtonStyle,UnusedAttribute">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:onClick="go_to_signup_page"
+                android:text="@string/sign_up"
+                android:textColor="@color/black"
+                tools:ignore="ButtonStyle,UnusedAttribute">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
